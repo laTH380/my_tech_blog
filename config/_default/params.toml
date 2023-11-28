@@ -2,12 +2,12 @@
 enableSearch = true
 
 # socials
-twitter = "@janedoe"
+twitter = "@laTH"
 largeTwitterCard = false # set to true if you want to show a large twitter card image. The default is a small twitter card image
-introDescription = "Technologist, perpetual student, teacher, continual incremental improvement."
+introDescription = "エンジニア見習いの活動報告書"
 # introURL = "about/" # set the url for the 'read more' button below the introDescription, or set to false to not show the button
-# description = "A theme based on VMware's Clarity Design System for publishing technical blogs with Hugo." # Set your site's meta tag (SEO) description here. Alternatively set this description in your home page content file e.g. content/_index.md. Whatever is set in the latter will take precedence.
-# keywords = ["design", "clarity", "hugo theme"] # Set your site's meta tag (SEO) keywords here. Alternatively set these in your home page content file e.g. content/_index.md. Whatever is set in the latter will take precedence.
+description = "エンジニア見習いのlaTHが行ったことを記録するためのブログ。いつか自分や誰かの手助けになるかもしれない。" # Set your site's meta tag (SEO) description here. Alternatively set this description in your home page content file e.g. content/_index.md. Whatever is set in the latter will take precedence.
+#keywords = ["design", "clarity", "hugo theme"] # Set your site's meta tag (SEO) keywords here. Alternatively set these in your home page content file e.g. content/_index.md. Whatever is set in the latter will take precedence.
 
 # showShare = false # Uncomment to not show share buttons on each post. Also available in each post's front matter.
 
@@ -27,7 +27,7 @@ numberOfTagsShown = 14 # Applies for all other default & custom taxonomies. e.g 
 # Switch to `true` if you'd like to group assets with the post itself (as a "leaf bundle").
 # This can be overridden at the page level; what is set below acts as the default if no page variable is set.
 # Details on page bundles: https://gohugo.io/content-management/page-bundles/#leaf-bundles
-usePageBundles = false
+usePageBundles = true
 
 # Path variables
 #
@@ -135,8 +135,8 @@ languageMenuName = "🌐"
 
 # website author
 [author]
-name = "Jane Doe"
-# photo = "images/jane-doe.png" #include this if you would like to show the author photo on the sidebar
+name = "laTH"
+photo = "images/jane-doe.png" #include this if you would like to show the author photo on the sidebar
 
 [plausible_analytics]
 enable = false # to enable plausible analytics set to true.
