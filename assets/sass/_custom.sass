@@ -1,4 +1,39 @@
 // add customs styles and general overrides here
-// due to the cascading nature of css, if you try to override theme css variables in this file, those changes will not apply. Instead, override css variables in the `override.sass` file
-// we recommend not editing this file directly. Instead, create an `assets/sass/_custom.sass` file at the root level of your site.
-// if you edit this file directly, you will have to resolve git conflicts when and if you decide to pull changes we make on the theme
+// due to the cascading nature of css, if you try to override theme css variables in this file, those changes will not apply. Instead, 
+
+@mixin card_style
+    border-radius: 0.5rem
+    background-color: var(--light)
+    padding: 1rem
+    margin: 1rem 0
+    h2
+        margin: 0
+        padding: 0
+        border-bottom: dashed
+        border-width: thin
+
+.sidebar_author_sec
+    @include card_style
+    margin-top: 5%
+    padding-bottom: 1rem
+    a
+        margin: 1rem 0 0 0
+        display: flex
+        justify-content: center
+    h2
+        border: 0
+.osusume
+    @include card_style
+
+.saikin
+    @include card_style
+
+.categori
+    @include card_style
+    padding: 1.5rem
+
+.sidebar_inner::before
+    padding: 0
+
+.to_top
+    left: 80% !important

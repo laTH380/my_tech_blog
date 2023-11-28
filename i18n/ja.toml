@@ -55,6 +55,9 @@ other = "{{ .ReadingTime }} 分で読了"
 [series_posts]
 other = "このシリーズの投稿"
 
+[about]
+other = "about"
+
 # search
 [quick_links]
   other = "結果"
