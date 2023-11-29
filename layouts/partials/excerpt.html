@@ -1,35 +1,37 @@
 <li class="post_item">
+  <a href="{{ .Permalink }}" class="card_button" ></a>
   <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title | markdownify  }}</a>
-      </h3>
-      {{ partial "post-meta" . }}
-    </div>
-    {{- with .Params.thumbnail }}
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail">
-        {{- partial "image" (dict "file" . "alt" $.Title "type" "thumbnail" "Page" $.Page ) }}
+    <div class="right_excerpt">
+      <div class="excerpt_header">
+        <h3 class="post_link">
+          <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title | markdownify  }}</a>
+        </h3>
+        {{ partial "post-meta" . }}
       </div>
-      {{ else }}
-      <div class="excerpt_footer">
-        {{- end }}
-        <div class="pale">
-          {{- $summary := truncate 320 .Summary }}
-          {{- if .Params.summary }}
-            {{- $summary = .Params.summary }}
-          {{- else if .Params.abstract }}
-            {{ $summary = .Params.abstract }}
-          {{- end }}
-          {{ if not ( strings.Contains $summary "<p>" ) }}
-            <p>{{ $summary | markdownify }}</p>
-          {{ else }}
-            {{ $summary | markdownify }}
-          {{ end }}
-          <br>
-          {{- $r := T "read_more" }}
-          <a href="{{ .Permalink }}" title="{{ $r }}" class="excerpt_more button">{{ $r }}</a>
+        <div class="excerpt_footer">
+          <div class="pale">
+            {{- $summary := truncate 320 .Summary }}
+            {{- if .Params.summary }}
+              {{- $summary = .Params.summary }}
+            {{- else if .Params.abstract }}
+              {{ $summary = .Params.abstract }}
+            {{- end }}
+            {{ if not ( strings.Contains $summary "<p>" ) }}
+              <p>{{ $summary | markdownify }}</p>
+            {{ else }}
+              {{ $summary | markdownify }}
+            {{ end }}
+            {{- $r := T "read_more" }}
+            <!-- <a href="{{ .Permalink }}" title="{{ $r }}" class="excerpt_more button">{{ $r }}</a> -->
+          </div>
         </div>
       </div>
+    <div class="left_excerpt">
+      {{- with .Params.thumbnail }}
+        <div class="excerpt_thumbnail">
+          {{- partial "image" (dict "file" . "alt" $.Title "type" "thumbnail" "Page" $.Page ) }}
+        </div>
+        {{ else }}
+        {{- end }}
     </div>
   </li>

@@ -1,8 +1,8 @@
 $light: #fff
 $haze: #fafafa
 $xhaze: darken($haze, 11%)
-$bg: #002538
-$theme: #0077b8
+$bg: #002538  //ヘッダー//
+$theme: #0077b8 //ボタンの色
 $mobile-menu-breakpoint: 769px
 $single-column-breakpoint: 42rem
 
@@ -26,8 +26,8 @@ html
   --color-mode: 'lit'
   --light: #fff
   --dark: #000
-  --bg: #002538
-  --haze: #f2f2f2
+  --bg: #002538 //ダークテーマの背景//
+  --haze: #f2f2f2 //ライトテーマの背景
   --gray: #020202
   --accent: var(--gray)
   --text: #575757
@@ -35,15 +35,15 @@ html
   --font: Metropolis, sans-serif
   --theme: #0077b8
   --ease: cubic-bezier(.19,1,.22,1)
-  --code-bg: var(--bg)
+  --code-bg: var(--bg) //コードブロックの背景色
   --table-bg: var(--light)
   --table-haze: var(--haze)
   --table-border: #dedede
   --footer-bg: var(--haze)
   --shadow: rgba(0,0,0,0.12)
   --translucent: rgba(0,0,0,0.05)
-  --translucent-light: rgba(255,255,255,0.05)
-  --post-bg: var(--light)
+  --translucent-light: rgba(255,255,255,0.05) //白の半透明
+  --post-bg: var(--light) //ライトモードの投稿の背景色
   --choice-bg: var(--haze)
   --ease: cubic-bezier(0.39, 0.575, 0.565, 1)
   --easing: cubic-bezier(.19,1,.22,1)
@@ -57,8 +57,8 @@ html
   --notice-warning-border-color: rgba(217, 83, 79, 0.8)
   --notice-warning-background: #FAE2E2
 
-  &.page
-    --choice-bg: var(--light)
+  // &.page
+  //   --choice-bg: var(--light)
   @mixin darkmode
     --light: hsla(0,0%,100%,0.87)
     --color-mode: 'dim'
@@ -71,7 +71,7 @@ html
     --table-haze: rgba(255,255,255,0.1)
     --table-border: var(--code-bg)
     --footer-bg: var(--bg)
-    --post-bg: var(--translucent-light)
+    --post-bg: var(--translucent-light) //投稿の背景色
     *
       // box-shadow: none !important
 

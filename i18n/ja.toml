@@ -47,7 +47,7 @@ other = "全てのタグ"
 other = "全てのシリーズ"
 
 [overview]
-other = "概要"
+other = "目次"
 
 [reading_time]
 other = "{{ .ReadingTime }} 分で読了"

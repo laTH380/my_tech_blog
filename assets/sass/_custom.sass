@@ -3,7 +3,7 @@
 
 @mixin card_style
     border-radius: 0.5rem
-    background-color: var(--light)
+    background-color: var(--post-bg)
     padding: 1rem
     margin: 1rem 0
     h2
@@ -36,4 +36,56 @@
     padding: 0
 
 .to_top
-    left: 80% !important
+    left: 84% !important
+    bottom: 5%
+    right: 16%
+
+.post_content
+    @include card_style
+    h2
+        border: 0
+        
+.footer_inner
+    display: flex
+    justify-content: center
+
+.search_result
+    @include card_style
+    padding: 1% !important
+
+.nav
+    a
+        color: $light
+
+.post_item
+    margin: 0 0 1rem 0
+    padding: 0.5rem
+    position: relative
+    .card_button
+        position: absolute
+        z-index: 0
+        top: 0
+        left: 0
+        width: 100%
+        height: 100%
+    .excerpt
+        display: flex
+        flex-direction: row-reverse;
+        justify-content: left
+        padding: 0
+        .left_excerpt
+            margin: auto 2%
+            max-width: 25%
+            .excerpt_thumbnail
+                display: flex
+                align-items: center
+                            
+        .excerpt_header
+            position: relative
+            padding: 0
+            z-index: 1
+        .excerpt_footer
+            padding: 0
+            .pale
+                p
+                    padding: 0 0 0.7rem 0

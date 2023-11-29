@@ -101,6 +101,7 @@
         <br>
         <div class="post_tags_toggle button">{{ T (printf "all_%s" (lower $key)) }}</div>
         {{- $tagsInfo := newScratch }}
+    </div>
         <div class="post_tags">
           <div class="tags_list">
             {{- range $value.Alphabetical }}
@@ -119,7 +120,7 @@
         </div>
         {{- end }}
       </nav>
-    </div>
+    
     {{- end }}
     {{- end }}
   </section>
