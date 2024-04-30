@@ -1,7 +1,7 @@
 {{ $s := site.Params }}
 <aside class="sidebar">
   <section class="sidebar_inner">
-    <br>
+    <!-- <br> -->
     {{ partial "search/widget" . }}
     {{- $introDescription := $s.introDescription }}
     {{- with .Params.introDescription }}
@@ -20,18 +20,25 @@
         {{- if $showAuthorPhoto }}
           <div class="author_header">
             <img src="{{ absURL $author.photo }}" alt="{{ $author.name }} photo">
-            <h2>{{  $author.name }}</h2>
+            <div class="vertical_center_box"><h2>{{  $author.name }}</h2></div>
           </div>
         {{- else }}
-          <h2>{{  if $fullAuthor }}{{ $author.name }}{{ else }}{{ $author }}{{ end }}</h2>
+          <div class="vertical_center_box"><h2>{{  if $fullAuthor }}{{ $author.name }}{{ else }}{{ $author }}{{ end }}</h2></div>
         {{- end }}
         <div class="author_bio">
           {{ markdownify $introDescription }}
         </div>
-        {{- if ( ne $s.introURL false ) }}
+        <!-- {{- if ( ne $s.introURL false ) }}
         {{- $r := T "about" }}
         <a href='{{ absLangURL (default "about/" $s.introURL) }}' class="button mt-1" role="button" title='{{ $r }}'>{{ $r }}</a>
-        {{- end }}
+        {{- end }} -->
+        <div class="links">
+          <a href="https://twitter.com/laTH380"><img src="/images/twitter.svg" alt="twitter(新X)" class="link-image"></a>
+          <a href="https://twitter.com/laTH380"><img src="/images/twitter.svg" alt="github" class="link-image"></a>
+          <a href="https://twitter.com/laTH380"><img src="/images/twitter.svg" alt="labo" class="link-image"></a>
+          <!-- <a href="https://twitter.com/laTH380"><img src="/images/twitter.svg" alt="Youtube" class="link-image"></a>
+          <a href="https://twitter.com/laTH380"><img src="/images/twitter.svg" alt="niconico" class="link-image"></a> -->
+        </div>
       </div>
     {{- end }}
 

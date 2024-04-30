@@ -1,6 +1,9 @@
 // add customs styles and general overrides here
 // due to the cascading nature of css, if you try to override theme css variables in this file, those changes will not apply. Instead, 
 
+// ./varidabelse.sassファイルの変数をそのまま持ってきている(手動)
+$bg: #002538  //ヘッダー//
+
 @mixin card_style
     border-radius: 0.5rem
     background-color: var(--post-bg)
@@ -89,3 +92,28 @@
             .pale
                 p
                     padding: 0 0 0.7rem 0
+
+.grid-inverse
+    padding: 0
+    margin: 100px 10%
+
+.posts
+    margin-top: 0
+
+.links
+    border-top: 2px dashed $bg
+    margin-top: 5%
+    display: flex
+    justify-content: center
+    /* 画像のスタイル */
+    .link-image
+        width: 80%
+        height: 80%
+        object-fit: cover
+        max-width: 50px
+        max-height: 50px
+        margin: 10%
+
+.vertical_center_box
+    display: flex
+    align-items: center
