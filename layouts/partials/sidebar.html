@@ -20,7 +20,7 @@
         {{- if $showAuthorPhoto }}
           <div class="author_header">
             <img src="{{ absURL $author.photo }}" alt="{{ $author.name }} photo">
-            <div class="vertical_center_box"><h2>{{  $author.name }}</h2></div>
+            <div class="vertical_center_box"><a href="/profiel"><h2>{{  $author.name }}</h2></a></div>
           </div>
         {{- else }}
           <div class="vertical_center_box"><h2>{{  if $fullAuthor }}{{ $author.name }}{{ else }}{{ $author }}{{ end }}</h2></div>
@@ -34,8 +34,8 @@
         {{- end }} -->
         <div class="links">
           <a href="https://twitter.com/laTH380"><img src="/images/twitter.svg" alt="twitter(新X)" class="link-image"></a>
-          <a href="https://twitter.com/laTH380"><img src="/images/twitter.svg" alt="github" class="link-image"></a>
-          <a href="https://twitter.com/laTH380"><img src="/images/twitter.svg" alt="labo" class="link-image"></a>
+          <a href="https://github.com/laTH380"><img src="/images/github-icon.svg" alt="github" class="link-image"></a>
+          <a href="https://www.nitech.ac.jp/"><img src="/images/196_b_hoso.svg" alt="labo" class="link-image"></a>
           <!-- <a href="https://twitter.com/laTH380"><img src="/images/twitter.svg" alt="Youtube" class="link-image"></a>
           <a href="https://twitter.com/laTH380"><img src="/images/twitter.svg" alt="niconico" class="link-image"></a> -->
         </div>

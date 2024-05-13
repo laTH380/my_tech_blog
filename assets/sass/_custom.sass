@@ -1,9 +1,6 @@
 // add customs styles and general overrides here
 // due to the cascading nature of css, if you try to override theme css variables in this file, those changes will not apply. Instead, 
 
-// ./varidabelse.sassファイルの変数をそのまま持ってきている(手動)
-$bg: #002538  //ヘッダー//
-
 @mixin card_style
     border-radius: 0.5rem
     background-color: var(--post-bg)
@@ -52,13 +49,24 @@ $bg: #002538  //ヘッダー//
     display: flex
     justify-content: center
 
-.search_result
-    @include card_style
-    padding: 1% !important
+.search_results
+    backdrop-filter: blur(10px)
+    background-color: var(--header_text_light)
+    border-radius: 8px
+    padding: 4px 0 0 0
+    .search_title
+        background-color: var(--header_text_light)
+        color: var(--block_bg)
+    .search_result
+        @include card_style
+        padding: 1% !important
+        background-color: var(--block_bg)
+        margin: 0 4px 4px 4px
 
 .nav
-    a
-        color: $light
+    color: var(--header_text_light)
+    .color_choice
+        background-color: var(--haze)
 
 .post_item
     margin: 0 0 1rem 0
@@ -101,18 +109,17 @@ $bg: #002538  //ヘッダー//
     margin-top: 0
 
 .links
-    border-top: 2px dashed $bg
+    border-top: 2px dashed var(--haze)
     margin-top: 5%
     display: flex
     justify-content: center
+    gap: 5px
     /* 画像のスタイル */
+    position: relative; // 絶対配置の基準にします
     .link-image
-        width: 80%
-        height: 80%
-        object-fit: cover
+        width: 100%
         max-width: 50px
         max-height: 50px
-        margin: 10%
 
 .vertical_center_box
     display: flex
