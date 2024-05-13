@@ -101,26 +101,26 @@ html
           background-image: url("#{$imagesPath}night-moon.jpg")
           transform: translateX(1.4rem)
 
-  @media (prefers-color-scheme: dark)
+  // @media (prefers-color-scheme: dark)
 
-    &:not([data-mode="lit"])
-      @include darkmode
-      blockquote
-        background: var(--translucent-light)
-        color: #dedede
-      svg.icon
-        fill: var(--light)
-      .icon
-        img
-          background: none
-        svg
-          fill: #fafafa
-      .sidebar
-        &_inner
-          &::before
-            display: none
-      .color
-        &_choice
-          &::after
-            background-image: url("#{$imagesPath}night-moon.jpg")
-            transform: translateX(1.4rem)
+  //   &:not([data-mode="lit"])
+  //     @include darkmode
+  //     blockquote
+  //       background: var(--translucent-light)
+  //       color: #dedede
+  //     svg.icon
+  //       fill: var(--light)
+  //     .icon
+  //       img
+  //         background: none
+  //       svg
+  //         fill: #fafafa
+  //     .sidebar
+  //       &_inner
+  //         &::before
+  //           display: none
+  //     .color
+  //       &_choice
+  //         &::after
+  //           background-image: url("#{$imagesPath}night-moon.jpg")
+  //           transform: translateX(1.4rem)
