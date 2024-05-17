@@ -5,7 +5,7 @@
     border-radius: 0.5rem
     background-color: var(--post-bg)
     padding: 1rem
-    margin: 1rem 0
+    margin: 0 0 1rem 0
     h2
         margin: 0
         padding: 0
@@ -13,6 +13,11 @@
         border-width: thin
 
 .nav_header
+    .nav
+        margin: 5px 0
+        color: var(--header_text_light)
+        .color_choice
+            background-color: var(--haze)
     .nav_brand
         padding: 0 1rem 0 0
         img
@@ -23,7 +28,7 @@
 
 .sidebar_author_sec
     @include card_style
-    margin-top: 5%
+    // margin-top: 5%
     padding-bottom: 1rem
     a
         margin: 1rem 0 0 0
@@ -58,6 +63,8 @@
     display: flex
     justify-content: center
 
+.search
+    margin: 0 0 1rem 0
 .search_results
     backdrop-filter: blur(10px)
     background-color: var(--header_text_light)
@@ -72,10 +79,9 @@
         background-color: var(--block_bg)
         margin: 0 4px 4px 4px
 
-.nav
-    color: var(--header_text_light)
-    .color_choice
-        background-color: var(--haze)
+// main
+//     display: grid
+//     justify-content: center
 
 .post_item
     margin: 0 0 1rem 0
@@ -110,10 +116,6 @@
                 p
                     padding: 0 0 0.7rem 0
 
-.grid-inverse
-    padding: 0
-    margin: 100px 10%
-
 .posts
     margin-top: 0
 
@@ -124,7 +126,7 @@
     justify-content: center
     gap: 5px
     /* 画像のスタイル */
-    position: relative; // 絶対配置の基準にします
+    position: relative // 絶対配置の基準にします
     .link-image
         width: 100%
         max-width: 50px
@@ -133,3 +135,6 @@
 .vertical_center_box
     display: flex
     align-items: center
+
+// タブレット向けのスタイル
+// パソコン向けのスタイルなどのメディアクエリで変わるものは全て_utiles.sass
