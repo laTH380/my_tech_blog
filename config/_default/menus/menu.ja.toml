@@ -3,15 +3,15 @@
   url = ""
   weight = -110
 
-#[[main]]
-#  name = "Archives"
-#  url = "post/rich-content/"
-#  weight = -109
+[[main]]
+ name = "Profiel"
+ url = "profiel/"
+ weight = -107
 
 [[main]]
-  name = "Profiel"
-  url = "profiel/"
-  weight = -107
+  name = "About"
+  url = "about/"
+  weight = -109
 
 # Submenus are done this way: parent -> identifier
 # [[main]]
