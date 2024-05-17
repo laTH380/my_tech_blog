@@ -14,18 +14,18 @@
   weight = -107
 
 # Submenus are done this way: parent -> identifier
-[[main]]
-  name = "Category"
-  identifier = "Links"
-  weight = -106
-[[main]]
-  parent = "Links"
-  name = "プログラミング"
-  url = "https://www.linkedin.com/"
-[[main]]
-  parent = "Links"
-  name = "その他"
-  url = "https://twitter.com/"
+# [[main]]
+#   name = "Category"
+#   identifier = "Links"
+#   weight = -106
+# [[main]]
+#   parent = "Links"
+#   name = "プログラミング"
+#   url = "https://www.linkedin.com/"
+# [[main]]
+#   parent = "Links"
+#   name = "その他"
+#   url = "https://twitter.com/"
 
 
 # social menu links
