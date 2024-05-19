@@ -1,5 +1,5 @@
 +++
-title = "about"
+title = "About"
 description = "このホームページについて"
 date = "2024-05-17"
 aliases = ["about"]
