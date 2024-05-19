@@ -1,9 +1,58 @@
 {{ if isset .Params "series" }}
-{{$related := where .Site.RegularPages ".Params.series" "eq" .Params.series }}
-	<h2 class="post_related">Posts in this Series</h2>
+<!-- {{$related := where .Site.RegularPages ".Params.series" "eq" .Params.series }} なぜか機能しない-->
+	<!-- <h2 class="post_related">Posts in this Series</h2> -->
+	<!-- {{ range $related }}
+		<li><a href="{{ .Permalink }}" class="nav-link" title="{{ .Title }}">{{ .Title }}</a></li>
+	{{ end }} -->
+	{{$currentTitle := .Params.Title}}
+	{{$currentSeries := .Params.series}}
+	<!-- next,prevを表示 -->
+	{{$series_index := 0}}
+	{{$stop_flag := ""}}
+	{{$last_flag := true}}
+	{{$prev := .Params}}
+	{{ range .Site.RegularPages.Reverse }}
+	{{ if eq .Params.series $currentSeries }}
+		{{ if eq $stop_flag "true"}}
+			<div class="related_next">
+				<a href="{{ .Permalink }}" class="nav-link" title="{{ .Title }}">{{ .Title }}</a>
+				<span class="yazirusi">next ≫</span>
+			</div>
+			{{$last_flag = false}}
+			{{break}}
+		{{ end }}
+		{{ if eq .Title $currentTitle }}
+			{{ if eq $series_index 0}}
+				<div class="related_prev">
+					<span class="yazirusi">≪ prev</span>
+					このページがシリーズの最初です
+				</div>
+				{{$stop_flag = "true"}}
+			{{else}}
+				<div class="related_prev">
+					<span class="yazirusi">≪ prev</span>
+					<a href="{{ $prev.Permalink }}" class="nav-link" title="{{ $prev.Title }}">{{ $prev.Title }}</a>
+				</div>
+				{{$stop_flag = "true"}}
+			{{end}}
+		{{ end }}
+		{{$prev = .Params}}
+		{{ $series_index = add $series_index 1 }}
+	{{ end }}
+	{{ end }}
+	{{if eq $last_flag true}}
+	<div class="related_next">
+		このページがシリーズ最新です
+		<span class="yazirusi">next ≫</span>
+	</div>
+	{{end}}
 	<ul>
-	  {{ range $related }}
-	      <li><a href="{{ .Permalink }}" class="nav-link" title="{{ .Title }}">{{ .Title }}</a></li>
+	  <!-- シリーズ一覧を表示 -->
+	  <span class="itiran">シリーズ一覧</span>
+	  {{ range .Site.RegularPages.Reverse }}
+		{{ if eq .Params.series $currentSeries }}
+		  <li><a href="{{ .Permalink }}" class="nav-link" title="{{ .Title }}">{{ .Title }}</a></li>
+		{{ end }}
 	  {{ end }}
 	</ul>
 {{ end }}
