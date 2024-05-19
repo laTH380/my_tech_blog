@@ -12,6 +12,9 @@
         border-bottom: dashed
         border-width: thin
 
+@mixin def_border
+    border-top: 2px dashed var(--haze)
+
 .nav_header
     .nav
         margin: 5px 0
@@ -79,9 +82,26 @@
         background-color: var(--block_bg)
         margin: 0 4px 4px 4px
 
-// main
-//     display: grid
-//     justify-content: center
+main
+    .related
+        margin-top: 2rem
+        .related_ne_pr
+            display: flex
+            flex-direction: column
+            border: 3px solid var(--haze)
+            border-radius: 10px
+            .related_prev
+                border-bottom: 3px solid var(--haze)
+                display: flex
+                align-items: center
+                gap: 1.3rem
+            .related_next
+                display: flex
+                justify-content: flex-end
+                align-items: center
+                gap: 1.3rem
+            .yazirusi
+                font-size: 1.7rem
 
 .post_item
     margin: 0 0 1rem 0
@@ -120,7 +140,7 @@
     margin-top: 0
 
 .links
-    border-top: 2px dashed var(--haze)
+    @include def_border
     margin-top: 5%
     display: flex
     justify-content: center
