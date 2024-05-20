@@ -6,11 +6,9 @@ date = '2024-05-19'
 author = 'laTH'
 categories = []
 tags = ["その他"]
-series = []
 draft = false #非表示になる
 featured = false #おすすめに表示される
 toc = false #目次が表示される
 abstract = "工事中案内"
 +++
-### 工事中です
 一時的にすべての記事を非公開にしています。修正などが完了次第順次公開していきます。

@@ -9,11 +9,13 @@
     h2
         margin: 0
         padding: 0
-        border-bottom: dashed
-        border-width: thin
 
 @mixin def_border
-    border-top: 2px dashed var(--haze)
+    border-top: 3px solid var(--header_text_light)
+
+h2
+    color: var(--header_text_light)
+    border-bottom: dashed 2px var(--header_text_light)
 
 .nav_header
     .nav
@@ -59,8 +61,6 @@
 
 .post_content
     @include card_style
-    h2
-        border: 0
     .post_body
         @include def_border
 .footer_inner
@@ -84,6 +84,11 @@
         margin: 0 4px 4px 4px
 
 main
+    .post_meta
+        span
+            margin-bottom: 0
+    .post_body
+        padding-top: 0.5rem
     .related
         margin-top: 2rem
         .related_ne_pr
