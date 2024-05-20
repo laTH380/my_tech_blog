@@ -23,13 +23,13 @@ series = [
     "Themes Guide"
 ]
 
-draft = false #非表示になる
+draft = true #非表示になる
 featured = false #おすすめに表示される
 toc = true #目次が表示される
 abstract = "aaaaaaaaaaaaaaaaaaaaaaaaaa"
 comments = false
 +++
-
+<!-- ページバンドルの使い方シート -->
 [Page bundles](https://gohugo.io/content-management/page-bundles/) are an optional way to [organize page resources](https://gohugo.io/content-management/page-resources/) within Hugo.
 
 You can opt-in to using page bundles in Hugo Clarity with `usePageBundles` in your site configuration or in a page's front matter. [Read more about `usePageBundles`.](https://github.com/chipzoller/hugo-clarity#organizing-page-resources)

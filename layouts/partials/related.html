@@ -18,7 +18,7 @@
 			{{ if eq $stop_flag "true"}}
 				<div class="related_next">
 					<a href="{{ .Permalink }}" class="nav-link" title="{{ .Title }}">{{ .Title }}
-					<span class="yazirusi1">next ≫</span></a>
+					<span class="yazirusi">next ≫</span></a>
 				</div>
 				{{$last_flag = false}}
 				{{break}}
@@ -26,14 +26,14 @@
 			{{ if eq .Title $currentTitle }}
 				{{ if eq $series_index 0}}
 					<div class="related_prev">
-						<span class="yazirusi1">≪ prev</span>
+						<span class="yazirusi">≪ prev</span>
 						このページがシリーズの最初です
 					</div>
 					{{$stop_flag = "true"}}
 				{{else}}
 					<div class="related_prev">
 						<a href="{{ $prev.Permalink }}" class="nav-link" title="{{ $prev.Title }}">
-							<span class="yazirusi2">≪ prev</span>
+							<span class="yazirusi">≪ prev</span>
 							{{ $prev.Title }}
 						</a>
 					</div>
@@ -47,7 +47,7 @@
 		{{if eq $last_flag true}}
 		<div class="related_next">
 			このページがシリーズ最新です
-			<span class="yazirusi1">next ≫</span>
+			<span class="yazirusi">next ≫</span>
 		</div>
 		{{end}}
 	</div>

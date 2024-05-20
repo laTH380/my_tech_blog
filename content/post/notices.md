@@ -3,8 +3,9 @@ author: Hugo Authors
 title: Using Notices
 date: 2021-08-20
 description: Using Notices functionality within this theme
+draft: true
 ---
-
+<!-- 色付きエリアを使うためのショートコード -->
 The "Notices" shortcode enables you to call out pieces of information - sidebars, warnings, tips, etc.
 
 To create a notice on a page, you can use the `notice` shortcode.  

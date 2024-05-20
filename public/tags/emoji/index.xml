@@ -17,7 +17,8 @@
       <description>
         
           
-            &lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;
+            &lt;!-- 絵文字ショートコード --&gt;
+&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;
           
           
         
