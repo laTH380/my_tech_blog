@@ -2,12 +2,12 @@
 title = "Profiel"
 description = "プロフィール兼ポートフォリオ"
 date = "2024-05-19"
-author = "laTH"
+author = "laTH380"
 +++
 
 ## 自己紹介
 
-こんにちは，laTH(らす)です。
+こんにちは，laTH380(らすさんはちぜろ)です。
 情報工学を専攻して学んでおり，プログラミングスキルやそれらの知識を生かした創造力に自信があります。  
 <!-- [簡単な自己紹介やキャリア目標]。 -->
 
@@ -46,7 +46,7 @@ author = "laTH"
             <ul>
             <li><strong>概要:</strong> 3Dデザイナーとしてステージ上のオブジェクト3Dモデル作成を担当</li>
             <li><strong>使用技術:</strong> blender</li>
-            <li><strong>リンク:</strong> <a href="https://nitmic.club.nitech.ac.jp/post/0012/">リンク</a></li>
+            <li><strong>リンク:</strong> <a href="https://nitmic.club.nitech.ac.jp/post/0012/">参考記事</a></li>
             </ul>
         </li>
         <li><strong>8月:</strong> ClusterGAMEJAM 2021 in SUMMER 参加</li>
@@ -57,7 +57,7 @@ author = "laTH"
             <ul>
             <li><strong>概要:</strong> 新ホームページのレイアウトやデザイン作成の実施</li>
             <li><strong>使用技術:</strong> hugo，HTML/CSS</li>
-            <li><strong>リンク:</strong> <a href="https://nitmic.club.nitech.ac.jp/post/0009/">リンク</a></li>
+            <li><strong>リンク:</strong> <a href="https://nitmic.club.nitech.ac.jp/post/0009/">対象HP</a></li>
             </ul>
         </li>
         <li><strong>4月:</strong> ClusterGAMEJAM 2022 in SPRING フューチャー部門賞受賞
@@ -71,7 +71,7 @@ author = "laTH"
             <ul>
             <li><strong>概要:</strong> 3Dデザイナーとしてキャラクターの3Dモデル作成を担当</li>
             <li><strong>使用技術:</strong> blender</li>
-            <li><strong>リンク:</strong> <a href="https://nitmic.club.nitech.ac.jp/post/0012/">リンク</a></li>
+            <li><strong>リンク:</strong> <a href="https://nitmic.club.nitech.ac.jp/post/0012/">参考記事</a></li>
             </ul>
         </li>
         <li><strong>11月:</strong> ゲーム「終末散歩」制作
@@ -111,7 +111,7 @@ author = "laTH"
         <li><strong>5月:</strong> ピッチ情報をグラフ表示するWEBアプリケーションを公開
             <ul>
                 <li><strong>使用技術:</strong>Flutter，Flask，Python，Azure</li>
-                <li><strong>リンク:</strong>https://victorious-moss-02f80d400.5.azurestaticapps.net/</li>
+                <li><strong>リンク:</strong><a href="https://victorious-moss-02f80d400.5.azurestaticapps.net/">webアプリ</a></li>
                 <li><strong>詳細:</strong> フロントエンドでファイルの取得とグラフの描画，バックエンドで音声処理を行い，http通信で情報を交換するバックエンド処理を意識したアプリケーション。</li>
             </ul>
         </li>
