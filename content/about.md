@@ -3,7 +3,7 @@ title = "About"
 description = "このホームページについて"
 date = "2024-05-17"
 aliases = ["about"]
-author = ""laTH380""
+author = "laTH380"
 +++
 
 ## このサイトの目的
