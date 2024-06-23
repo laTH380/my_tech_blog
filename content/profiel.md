@@ -18,7 +18,7 @@ author = "laTH380"
 - メール: lathlath3801@gmail.com
 - 個人サイト: https://lath-memorandum.netlify.app/
 
-## 主な出来事
+## 主な制作物など
 <!-- - **5月:** <a href="">ゲームジャム参加</a>
     - **概要:**[プロジェクトの簡単な説明。目的や背景など]
     - **使用技術:**[使用した技術やツール]
@@ -91,7 +91,6 @@ author = "laTH380"
             <ul><li>
                 <strong>概要:</strong> blenderの簡単な自動化アドオンを作成</li>
             <li><strong>使用技術:</strong> blender，Python</li>
-            <li><strong>リンク:</strong>準備中</li>
             </ul>
         </li>
         <li><strong>11月:</strong> アウトプットのための自分用WEBサイト作成
@@ -111,8 +110,15 @@ author = "laTH380"
         <li><strong>5月:</strong> ピッチ情報をグラフ表示するWEBアプリケーションを公開
             <ul>
                 <li><strong>使用技術:</strong>Flutter，Flask，Python，Azure</li>
-                <li><strong>リンク:</strong><a href="https://victorious-moss-02f80d400.5.azurestaticapps.net/">webアプリ</a></li>
+                <li><strong>リンク:</strong><a href="https://victorious-moss-02f80d400.5.azurestaticapps.net/">webアプリ,</a><a href="https://github.com/laTH380/pitch_curve_viewer">ソースコード</a></li>
                 <li><strong>詳細:</strong> フロントエンドでファイルの取得とグラフの描画，バックエンドで音声処理を行い，http通信で情報を交換するバックエンド処理を意識したアプリケーション。</li>
+            </ul>
+        </li>
+        <li><strong>6月:</strong> blenderアドオン「psd to plane」公開
+            <ul>
+                <li><strong>使用技術:</strong>blender，Python</li>
+                <li><strong>リンク:</strong><a href="https://github.com/laTH380/psd_to_plane">公開ページ</a></li>
+                <li><strong>詳細:</strong> PSDファイルを正しく透過してインポートできるようにするblenderアドオン。</li>
             </ul>
         </li>
     </ul>
