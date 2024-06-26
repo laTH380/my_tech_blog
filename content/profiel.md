@@ -2,13 +2,13 @@
 title = "Profiel"
 description = "プロフィール兼ポートフォリオ"
 date = "2024-05-19"
-author = "laTH"
+author = "laTH380"
 +++
 
 ## 自己紹介
 
-こんにちは、laTH(らす)です。
-情報工学を専攻して学んでおり、プログラミングスキルやそれらの知識を生かした創造力に自信があります。  
+こんにちは，laTH380(らすさんはちぜろ)です。
+情報工学を専攻して学んでおり，プログラミングスキルやそれらの知識を生かした創造力に自信があります。  
 <!-- [簡単な自己紹介やキャリア目標]。 -->
 
 ## 連絡先
@@ -18,7 +18,7 @@ author = "laTH"
 - メール: lathlath3801@gmail.com
 - 個人サイト: https://lath-memorandum.netlify.app/
 
-## 主な出来事
+## 主な制作物など
 <!-- - **5月:** <a href="">ゲームジャム参加</a>
     - **概要:**[プロジェクトの簡単な説明。目的や背景など]
     - **使用技術:**[使用した技術やツール]
@@ -36,7 +36,7 @@ author = "laTH"
         <li><strong>8月:</strong> ゲーム「自分より弱い魚を食べて成長してくやつ」制作
             <ul>
             <li><strong>概要:</strong> Unityを用いたゲーム制作初挑戦</li>
-            <li><strong>使用技術:</strong> Unity、お絵描き</li>
+            <li><strong>使用技術:</strong> Unity，お絵描き</li>
             </ul>
         </li>
     </ul>
@@ -46,7 +46,7 @@ author = "laTH"
             <ul>
             <li><strong>概要:</strong> 3Dデザイナーとしてステージ上のオブジェクト3Dモデル作成を担当</li>
             <li><strong>使用技術:</strong> blender</li>
-            <li><strong>リンク:</strong> <a href="https://nitmic.club.nitech.ac.jp/post/0012/">リンク</a></li>
+            <li><strong>リンク:</strong> <a href="https://nitmic.club.nitech.ac.jp/post/0012/">参考記事</a></li>
             </ul>
         </li>
         <li><strong>8月:</strong> ClusterGAMEJAM 2021 in SUMMER 参加</li>
@@ -56,14 +56,14 @@ author = "laTH"
         <li><strong>1月:</strong> Nitmic新ホームページの作成
             <ul>
             <li><strong>概要:</strong> 新ホームページのレイアウトやデザイン作成の実施</li>
-            <li><strong>使用技術:</strong> hugo, HTML/CSS</li>
-            <li><strong>リンク:</strong> <a href="https://nitmic.club.nitech.ac.jp/post/0009/">リンク</a></li>
+            <li><strong>使用技術:</strong> hugo，HTML/CSS</li>
+            <li><strong>リンク:</strong> <a href="https://nitmic.club.nitech.ac.jp/post/0009/">対象HP</a></li>
             </ul>
         </li>
         <li><strong>4月:</strong> ClusterGAMEJAM 2022 in SPRING フューチャー部門賞受賞
             <ul>
             <li><strong>概要:</strong> Clusterさんのゲームジャムに参加</li>
-            <li><strong>使用技術:</strong> Unity, blender</li>
+            <li><strong>使用技術:</strong> Unity，blender</li>
             <li><strong>詳細:</strong> 廃墟風のアスレチックワールドを作成。モデル及びプログラム作成。</li>
             </ul>
         </li>
@@ -71,14 +71,14 @@ author = "laTH"
             <ul>
             <li><strong>概要:</strong> 3Dデザイナーとしてキャラクターの3Dモデル作成を担当</li>
             <li><strong>使用技術:</strong> blender</li>
-            <li><strong>リンク:</strong> <a href="https://nitmic.club.nitech.ac.jp/post/0012/">リンク</a></li>
+            <li><strong>リンク:</strong> <a href="https://nitmic.club.nitech.ac.jp/post/0012/">参考記事</a></li>
             </ul>
         </li>
         <li><strong>11月:</strong> ゲーム「終末散歩」制作
             <ul>
             <li><strong>概要:</strong> オープンワールド探索ゲーム制作プロジェクト</li>
-            <li><strong>使用技術:</strong> Unreal Engine, blender</li>
-            <li><strong>詳細:</strong> 荒廃した都市を探索するオープンワールドゲーム。Nitmic所属の集大成として企画の立案、10人規模のプロジェクト立ち上げから実施。プロジェクトリーダー、モデル作成を含むワールド作成、プログラム作成を担当。</li>
+            <li><strong>使用技術:</strong> Unreal Engine，blender</li>
+            <li><strong>詳細:</strong> 荒廃した都市を探索するオープンワールドゲーム。Nitmic所属の集大成として企画の立案，10人規模のプロジェクト立ち上げから実施。プロジェクトリーダー，モデル作成を含むワールド作成，プログラム作成を担当。</li>
             <li><strong>リンク:</strong>準備中</li>
             </ul>
         </li>
@@ -90,13 +90,12 @@ author = "laTH"
         <li><strong>9月:</strong> blenderアドオンを作成
             <ul><li>
                 <strong>概要:</strong> blenderの簡単な自動化アドオンを作成</li>
-            <li><strong>使用技術:</strong> blender, Python</li>
-            <li><strong>リンク:</strong>準備中</li>
+            <li><strong>使用技術:</strong> blender，Python</li>
             </ul>
         </li>
         <li><strong>11月:</strong> アウトプットのための自分用WEBサイト作成
             <ul>
-            <li><strong>使用技術:</strong> Hugo, HTML/sass</li>
+            <li><strong>使用技術:</strong> Hugo，HTML/sass</li>
             <li><strong>リンク:</strong>このサイト</li>
             </ul>
         </li>
@@ -108,6 +107,20 @@ author = "laTH"
                 <li><strong>概要:</strong>卒業研究の題材は感情音声合成モデル生成の機械的自動化</li>
             </ul>
         <li><strong>4月:</strong>大学院入学 </li>
+        <li><strong>5月:</strong> ピッチ情報をグラフ表示するWEBアプリケーションを公開
+            <ul>
+                <li><strong>使用技術:</strong>Flutter，Flask，Python，Azure</li>
+                <li><strong>リンク:</strong><a href="https://victorious-moss-02f80d400.5.azurestaticapps.net/">webアプリ,</a><a href="https://github.com/laTH380/pitch_curve_viewer">ソースコード</a></li>
+                <li><strong>詳細:</strong> フロントエンドでファイルの取得とグラフの描画，バックエンドで音声処理を行い，http通信で情報を交換するバックエンド処理を意識したアプリケーション。</li>
+            </ul>
+        </li>
+        <li><strong>6月:</strong> blenderアドオン「psd to plane」公開
+            <ul>
+                <li><strong>使用技術:</strong>blender，Python</li>
+                <li><strong>リンク:</strong><a href="https://github.com/laTH380/psd_to_plane">公開ページ</a></li>
+                <li><strong>詳細:</strong> PSDファイルを正しく透過してインポートできるようにするblenderアドオン。</li>
+            </ul>
+        </li>
     </ul>
 </div>
 
@@ -119,23 +132,25 @@ author = "laTH"
 - フレームワーク・ライブラリ: 
   - Unity
   - Unreal Engine
+  - Flutter
   - Flet
+  - Flask
   - Hugo
 - ツール・技術: 
+  - blender
   - Git
   - Linux
-  - blender
 
 ## 趣味・関心
 - 創作活動
-    - 絵,動画,作曲
-- VOCALOID / VOICELOID
-- ゲーム
+    - 絵，動画，作曲
+- VOCALOID / VOICELOID / CeVIO / その他合成音声関連
+- ゲーム (ポケモン，ゼルダ，シミュレーション系)
 
 <!-- ## 学歴
 
 - [学位] in [専攻]
-  - [学校名], [卒業年]
+  - [学校名]，[卒業年]
   - [関連するコースやプロジェクト]
 
 ## 職歴

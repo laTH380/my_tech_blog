@@ -4,7 +4,7 @@ enableSearch = true
 # socials
 twitter = "@laTH"
 largeTwitterCard = false # set to true if you want to show a large twitter card image. The default is a small twitter card image
-introDescription = "IT系エンジニアを目指す人"#サイドバーの自己紹介
+introDescription = "エンジニアを目指す人"#サイドバーの自己紹介
 # introURL = "about/" # set the url for the 'read more' button below the introDescription, or set to false to not show the button
 description = "エンジニア見習いのlaTHが行ったことを記録するためのブログ。いつか自分や誰かの手助けになるかもしれない。" # Set your site's meta tag (SEO) description here. Alternatively set this description in your home page content file e.g. content/_index.md. Whatever is set in the latter will take precedence.
 #keywords = ["design", "clarity", "hugo theme"] # Set your site's meta tag (SEO) keywords here. Alternatively set these in your home page content file e.g. content/_index.md. Whatever is set in the latter will take precedence.
@@ -135,8 +135,8 @@ comments = false
 
 # website author
 [author]
-name = "laTH"
-photo = "images/jane-doe.png" #include this if you would like to show the author photo on the sidebar
+name = "laTH380"
+photo = "images/author_icon.png" #include this if you would like to show the author photo on the sidebar
 
 [plausible_analytics]
 enable = false # to enable plausible analytics set to true.
