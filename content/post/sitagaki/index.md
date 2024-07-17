@@ -11,9 +11,9 @@ tags = [
 categories = [
     "開発環境"
 ]
-<!-- series = ["Themes Guide"] -->
+# series = ["Themes Guide"]
 aliases = ["openssh","openssh","openssh"]
-<!-- thumbnail = "images/building.png" -->
+# thumbnail = "images/building.png"
 draft = true
 +++
 

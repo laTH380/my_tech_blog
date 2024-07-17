@@ -1,5 +1,5 @@
 +++
-author = "laTH"
+author = "laTH380"
 title = "template"
 date = "2019-03-11"
 description = "Sample article showcasing basic Markdown syntax and formatting for HTML elements."
@@ -17,11 +17,10 @@ categories = [
 ]
 # series = ["Themes Guide"]
 # aliases = ["migrate-from-jekyl"]
-thumbnail = "images/building.png"
+# thumbnail = "https://storyset.com/illustration/construction-crane/bro"
 draft = true
 +++
 ## Headings
-
 Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.
 
 ## Images
@@ -149,3 +148,4 @@ X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
 Press <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> to end the session.
 
 Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.
+<cite>a[^2]</cite>
