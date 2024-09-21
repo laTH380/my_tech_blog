@@ -23,7 +23,7 @@
     display: flex
     flex: 1
   &_header
-    background-color: $bg
+    background-color: var(--block_bg)
     padding: 0 1.5rem
     position: fixed
     width: 100%
@@ -212,7 +212,7 @@
   &_header
     height: 50vh
     max-height: 35rem
-    background-color: $bg
+    background-color: var(--block-bg)
     // background-image: url(#{$imagesPath}island.jpg)
     background-size: cover
     background-position: center
@@ -373,7 +373,7 @@
         bottom: 0.25rem
         left: 0.25rem
         z-index: 3
-        background: var(--bg)
+        background: var(--block_bg)
         opacity: 0.5
         border-radius: 1.5rem
         transition: 0.25s transform var(--ease)
@@ -617,7 +617,7 @@ figcaption
     height: 100vh
     top: 0
     padding: 1.5rem
-    background-color: var(--bg)
+    background-color: var(--block_bg)
     display: grid
     align-items: center
     overflow: auto
@@ -640,7 +640,7 @@ figcaption
   height: 0
   margin: 1.5rem 0
   border-radius: 0.6rem
-  background-color: var(--bg)
+  background-color: var(--block_bg)
   box-shadow: 0 1rem 2rem rgba(0,0,0,0.17)
   iframe
     left: 0
