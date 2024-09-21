@@ -18,7 +18,7 @@ categories = [
 # series = ["Themes Guide"]
 # aliases = ["migrate-from-jekyl"]
 # thumbnail = "https://storyset.com/illustration/construction-crane/bro"
-draft = true
+draft = false
 +++
 ## Headings
 Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.

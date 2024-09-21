@@ -1,5 +1,5 @@
 +++
-author = "laTH"
+author = "laTH380"
 title = "vscodeとopensshでWindowsでも楽々リモートアクセス"
 date = "2024-03-11"
 description = "Windowsでも外出先から自宅のパソコンにリモートアクセスして開発を進めたいときはVscodeとOpenSSHを使おう"

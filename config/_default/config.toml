@@ -1,7 +1,7 @@
 # set `baseurl` to your root domain
 # if you set it to "/" share icons won't work properly on production
 baseurl = "https://lath-memorandum.netlify.app/"  # Include trailing slash
-title = "lath-memorandum"  # Edit directly from config/_default/languages.toml # alternatively, uncomment this and remove `title` entry from the aforemention file.
+title = "めもらん"  # Edit directly from config/_default/languages.toml # alternatively, uncomment this and remove `title` entry from the aforemention file.
 copyright = "© 2024, laTH, Generated with Hugo and hugo-clarity"
 # canonifyurls = true
 paginate = 10
