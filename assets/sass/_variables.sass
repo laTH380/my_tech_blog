@@ -1,7 +1,7 @@
 // 全体的な構成を作っているファイル。テーマカラーなども
 $light: #fff
-$haze: #FFEEE4
-$xhaze: darken($haze, 11%)
+$theme_color: #FFEEE4
+$xtheme_color: darken($theme_color, 11%)
 $bg: #f2e5d1 //ヘッダー//
 $theme: #0077b8 //ボタンの色
 $mobile-menu-breakpoint: 765px
@@ -28,11 +28,9 @@ html
   --light: #fff
   --dark: #000
   --bg: #002538 //ダークテーマの背景//
-  --haze: #eedec8 //テーマカラー1薄背景色
-  --haze2: #aa7c50 //テーマカラー2濃い背景色
+  --theme_color: #eedec8 //テーマカラー1薄背景色
+  --theme_color2: #8a603e //テーマカラー2濃い背景色
   --block_bg: #fffcf8 //表示ブロックの背景
-  --header_color: #f2e5d1//ヘッダー色
-  --header_text_light: #8a603e //ヘッダーのテキストカラー
   --gray: #020202
   --accent: var(--gray)
   --text: #575757
@@ -42,14 +40,14 @@ html
   --ease: cubic-bezier(.19,1,.22,1)
   --code-bg: var(--bg) //コードブロックの背景色
   --table-bg: var(--light)
-  --table-haze: var(--haze)
+  --table-theme_color: var(--theme_color)
   --table-border: #dedede
-  --footer-bg: var(--haze)
+  --footer-bg: var(--theme_color)
   --shadow: rgba(0,0,0,0.12)
   --translucent: rgba(0,0,0,0.05)
   --translucent-light: rgba(255,255,255,0.05) //白の半透明
   --post-bg: var(--block_bg) //ライトモードの投稿の背景色
-  --choice-bg: var(--haze)
+  --choice-bg: var(--theme_color)
   --ease: cubic-bezier(0.39, 0.575, 0.565, 1)
   --easing: cubic-bezier(.19,1,.22,1)
   --notice-code-bg: var(--bg)
@@ -62,6 +60,12 @@ html
   --notice-warning-border-color: rgba(217, 83, 79, 0.8)
   --notice-warning-background: #FAE2E2
 
+  --common_card_gap: 30px
+  --common_border_radius: 8px
+
+  --common_post_content_card_padding: 4rem
+  --common_post_content_midasi_margin: 3rem
+
   // &.page
   //   --choice-bg: var(--light)
   @mixin darkmode
@@ -73,7 +77,7 @@ html
     --code-bg: var(--translucent-light)
     --header-text: var(--light)
     --table-bg: var(--code-bg)
-    --table-haze: rgba(255,255,255,0.1)
+    --table-theme_color: rgba(255,255,255,0.1)
     --table-border: var(--code-bg)
     --footer-bg: var(--bg)
     --post-bg: var(--translucent-light) //投稿の背景色

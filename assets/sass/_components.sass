@@ -6,7 +6,7 @@
   top: -0.5rem
   left: 1rem
 .nav
-  color: $haze
+  color: $theme_color
   display: flex
   justify-content: space-between
   @include content
@@ -146,7 +146,7 @@
   @include content
 
 .footer
-  // border-top: 1px solid $xhaze
+  // border-top: 1px solid $xtheme_color
   background: var(--footer-bg)
   margin-top: 2rem
   font-size: 0.9rem
@@ -200,8 +200,6 @@
     font-size: 0.7rem
 
 .post
-  &_link, &_title
-    margin-bottom: 0
   &_link
     line-height: 1
     > a
@@ -466,7 +464,7 @@
       top: 0
       bottom: 0
       // background: var(--light)
-      background: linear-gradient(to bottom, var(--haze), var(--light), var(--haze))
+      background: linear-gradient(to bottom, var(--theme_color), var(--light), var(--theme_color))
       position: absolute
       left: -2rem
         // display: none
@@ -528,7 +526,7 @@
   flex: 1
   justify-content: flex-end
   svg
-    fill: $haze
+    fill: $theme_color
     margin-left: 0.75rem
 
 figcaption
