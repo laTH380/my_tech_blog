@@ -2,7 +2,7 @@
 title: 'UE5.4にCompatible Skeletonsの設定項目がないんだが！？'
 description: 'UE5.4でCompatible Skeletonsの設定項目がない理由'
 summary: "UE5.4でCompatible Skeletonsの設定項目がない理由" # For the post in lists.
-date:  '2024-10-3'
+date:  '2024-10-03'
 aliases:  ["hugo-page-bundles"]
 author:  'laTH380'
 usePageBundles:  true
