@@ -2,10 +2,10 @@
 // due to the cascading nature of css, if you try to override theme css variables in this file, those changes will not apply. Instead, 
 
 @mixin card_style
-    border-radius: 0.5rem
+    border-radius: var(--common_border_radius)
     background-color: var(--post-bg)
     padding: 1rem
-    margin: 0 0 1rem 0
+    margin: 0 0 var(--common_card_gap) 0
     h2
         margin: 0
         padding: 0
@@ -13,16 +13,12 @@
 @mixin def_border
     border-top: 3px solid var(--header_text_light)
 
-h2
-    color: var(--header_text_light)
-    border-bottom: dashed 2px var(--header_text_light)
-
 .nav_header
     .nav
         margin: 5px 0
         color: var(--header_text_light)
         .color_choice
-            background-color: var(--haze)
+            background-color: var(--theme_color)
     .nav_brand
         padding: 0 1rem 0 0
         img
@@ -30,17 +26,7 @@ h2
     .nav_close
         .icon
             fill: #8a603e
-
-.sidebar_author_sec
-    @include card_style
-    // margin-top: 5%
-    padding-bottom: 1rem
-    a
-        margin: 1rem 0 0 0
-        display: flex
-        justify-content: center
-    h2
-        border: 0
+    
 .osusume
     @include card_style
 
@@ -50,6 +36,34 @@ h2
 .categori
     @include card_style
     padding: 1.5rem
+
+.sidebar
+    h2
+        font-size: 100%
+    .search
+        margin: 0 0 var(--common_card_gap) 0
+        .search_results
+            backdrop-filter: blur(10px)
+            background-color: var(--header_text_light)
+            border-radius: var(--common_border_radius)
+            padding: 4px 0 0 0
+            .search_title
+                background-color: var(--header_text_light)
+                color: var(--block_bg)
+            .search_result
+                @include card_style
+                padding: 1% !important
+                background-color: var(--block_bg)
+                margin: 0 4px 4px 4px
+    .sidebar_author_sec
+        @include card_style
+        padding-bottom: 1rem
+        a
+            margin: 1rem 0 0 0
+            display: flex
+            justify-content: center
+        h2
+            border: 0
 
 .sidebar_inner::before
     padding: 0
@@ -61,27 +75,24 @@ h2
 
 .post_content
     @include card_style
+    padding: var(--common_post_content_card_padding)
+    h1
+        padding: 0
+        margin: 0
+    h2
+        border-bottom: dashed 2px var(--theme_color2)
+        padding-top: var(--common_post_content_midasi_margin)
+    h3
+        margin: 0.8rem 0 0 0
+        padding: 0.8rem 0
+    .post_meta
+        margin: 1rem 0
     .post_body
         @include def_border
+
 .footer_inner
     display: flex
     justify-content: center
-
-.search
-    margin: 0 0 1rem 0
-.search_results
-    backdrop-filter: blur(10px)
-    background-color: var(--header_text_light)
-    border-radius: 8px
-    padding: 4px 0 0 0
-    .search_title
-        background-color: var(--header_text_light)
-        color: var(--block_bg)
-    .search_result
-        @include card_style
-        padding: 1% !important
-        background-color: var(--block_bg)
-        margin: 0 4px 4px 4px
 
 main
     .post_meta
@@ -94,10 +105,10 @@ main
         .related_ne_pr
             display: flex
             flex-direction: column
-            border: 3px solid var(--haze)
+            border: 3px solid var(--theme_color)
             border-radius: 10px
             .related_prev
-                border-bottom: 3px solid var(--haze)
+                border-bottom: 3px solid var(--theme_color)
                 display: flex
                 align-items: center
             .related_next
@@ -170,7 +181,7 @@ main
         list-style: circle
     .history_year
         font-size: 1rem
-        border-left: 5px solid var(--haze)
+        border-left: 5px solid var(--theme_color)
 
 .highlight
     pre
