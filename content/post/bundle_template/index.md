@@ -23,7 +23,7 @@ series:  [
     "Themes Guide"
 ]
 
-draft:  false #非表示になる
+draft:  true #非表示になる
 featured:  false #おすすめに表示される
 toc:  true #目次が表示される
 abstract:  "aaaaaaaaaaaaaaaaaaaaaaaaaa"
