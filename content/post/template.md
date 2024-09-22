@@ -72,7 +72,7 @@ Tables aren't part of the core Markdown spec, but Hugo supports supports them ou
 
 #### Code block with backticks
 
-```html
+<!-- ```html　Zennとの互換性のため使わない
 <!doctype html>
 <html lang="en">
 <head>
@@ -82,11 +82,11 @@ Tables aren't part of the core Markdown spec, but Hugo supports supports them ou
 <body>
   <p>Test</p>
 </body>
-<!-- this line is extraneous 2Error from server (Forbidden): deployments.apps is forbidden: User "chiptest" cannot create resource "deployments" in API group "apps" in the namespace "default" -->
+this line is extraneous 2Error from server (Forbidden): deployments.apps is forbidden: User "chiptest" cannot create resource "deployments" in API group "apps" in the namespace "default"
 </html>
-```
+``` -->
 
-#### Code block indented with four spaces
+<!-- #### Code block indented with four spaces　Zennとの互換性のため使わない
 
     <!doctype html>
     <html lang="en">
@@ -97,7 +97,7 @@ Tables aren't part of the core Markdown spec, but Hugo supports supports them ou
     <body>
       <p>Test</p>
     </body>
-    </html>
+    </html> -->
 
 #### Code block with Hugo's internal highlight shortcode
 {{< highlight html >}}
