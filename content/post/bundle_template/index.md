@@ -1,34 +1,34 @@
-+++
-title = 'Using Hugo page bundles'
-description = 'Page bundles are an optional way to organize content within Hugo.'
-summary = "Page bundles are an optional way to organize page resources within Hugo. You can opt-in to using page bundles in Hugo Clarity with `usePageBundles` in your site configuration --- or in a page's front matter." # For the post in lists.
-date = '2022-03-24'
-aliases = ["hugo-page-bundles"]
-author = 'Hugo Authors'
-usePageBundles = true
+---
+title:  'Using Hugo page bundles'
+description:  'Page bundles are an optional way to organize content within Hugo.'
+summary:  "Page bundles are an optional way to organize page resources within Hugo. You can opt-in to using page bundles in Hugo Clarity with `usePageBundles` in your site configuration --- or in a page's front matter." # For the post in lists.
+date:  '2022-03-24'
+aliases:  ["hugo-page-bundles"]
+author:  'Hugo Authors'
+usePageBundles:  true
 
-featureImage = 'https://images.unsplash.com/photo-1447069387593-a5de0862481e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80' # Top image on post.
-# featureImageAlt = 'Description of image' # Alternative text for featured image.
-# featureImageCap = 'This is the featured image.' # Caption (optional).
-thumbnail = 'https://images.unsplash.com/photo-1447069387593-a5de0862481e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80' # Image in lists of posts.
-# shareImage = 'share.jpg' # メディアに共有されるときに選択される画像
+featureImage:  'https://images.unsplash.com/photo-1447069387593-a5de0862481e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80' # Top image on post.
+# featureImageAlt:  'Description of image' # Alternative text for featured image.
+# featureImageCap:  'This is the featured image.' # Caption (optional).
+thumbnail:  'https://images.unsplash.com/photo-1447069387593-a5de0862481e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80' # Image in lists of posts.
+# shareImage:  'share.jpg' # メディアに共有されるときに選択される画像
 
-categories = [
+categories:  [
     "syntax"
 ]
-tags = [
+tags:  [
     "Hugo",
 ]
-series = [
+series:  [
     "Themes Guide"
 ]
 
-draft = true #非表示になる
-featured = false #おすすめに表示される
-toc = true #目次が表示される
-abstract = "aaaaaaaaaaaaaaaaaaaaaaaaaa"
-comments = false
-+++
+draft:  true #非表示になる
+featured:  false #おすすめに表示される
+toc:  true #目次が表示される
+abstract:  "aaaaaaaaaaaaaaaaaaaaaaaaaa"
+comments:  false
+---
 <!-- ページバンドルの使い方シート -->
 [Page bundles](https://gohugo.io/content-management/page-bundles/) are an optional way to [organize page resources](https://gohugo.io/content-management/page-resources/) within Hugo.
 
