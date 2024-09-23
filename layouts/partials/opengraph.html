@@ -20,8 +20,8 @@
     {{- $summary = . }}
   {{- end }}
 {{- end }}
-{{- $site := .Site.Title }}
-{{- $title := .Title }}
+{{- $title := .Site }}
+{{- $title := .Site.Title }}
 {{- $permalink := .Permalink }}
 {{- $logo := absURL $s.logo }}
 {{- $author := $s.author }}
@@ -78,7 +78,7 @@
       "@context": "http://schema.org",
       "@type": "BlogPosting",
       "mainEntityOfPage":"{{ $permalink }}",
-      "name": "{{ $site }}",
+      "name": "{{ $title }}",
       "headline": {{ $title }},
       "description": {{ $summary }},
       "url": "{{ $permalink }}",
@@ -98,7 +98,7 @@
           "@type":"ImageObject",
           "url": "{{ $logo }}"
         },
-        "name": "{{ $site }}"
+        "name": "{{ $title }}"
       }
     }
   </script>
