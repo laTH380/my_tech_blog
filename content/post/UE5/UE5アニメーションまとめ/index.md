@@ -2,7 +2,7 @@
 title:  'UE5.4のアニメーションに関するアセット情報まとめ'
 description:  'UE5.4のアニメーションに関するアセット情報をまとめてくださってるページなどをまとめました'
 summary:  'UE5.4のアニメーションに関するアセット情報をまとめてくださってるページなどをまとめました'
-date:  '2024-01-10'
+date:  '2024-10-10'
 aliases:  ["hugo-page-bundles"]
 author:  'laTH380'
 usePageBundles:  true
