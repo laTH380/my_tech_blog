@@ -1,19 +1,67 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>lath-memorandum</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on lath-memorandum</description>
+    <title>めもらん</title>
+    <link>https://memoran.netlify.app/</link>
+    <description>Recent content on めもらん</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <copyright>© 2024, latesui, Generated with Hugo and hugo-clarity</copyright>
-    <lastBuildDate>Sun, 19 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2024, laTH380, Generated with Hugo and hugo-clarity</copyright>
+    <lastBuildDate>Thu, 26 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://memoran.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo製自作ブログとZennに同時投稿できるツールを作った話</title>
+      <link>https://memoran.netlify.app/post/hugo_zenn_post_tool/</link>
+      <pubDate>Thu, 26 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://memoran.netlify.app/post/hugo_zenn_post_tool/</guid>
+      <description>
+        
+          
+            Hugo製自作ブログとZennに同時投稿できるツールを作った話
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>さらに進化したアニメーションリターゲットの使い方</title>
+      <link>https://memoran.netlify.app/post/ue5/%E3%81%95%E3%82%89%E3%81%AB%E9%80%B2%E5%8C%96%E3%81%97%E3%81%9F%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%AA%E3%82%BF%E3%83%BC%E3%82%B2%E3%83%83%E3%83%88%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9/</link>
+      <pubDate>Sun, 22 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://memoran.netlify.app/post/ue5/%E3%81%95%E3%82%89%E3%81%AB%E9%80%B2%E5%8C%96%E3%81%97%E3%81%9F%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%AA%E3%82%BF%E3%83%BC%E3%82%B2%E3%83%83%E3%83%88%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9/</guid>
+      <description>
+        
+          
+            UE5.4でさらに使いやすくなったアニメーションリターゲット機能（旧IKリターゲッター）の使い方紹介です。
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>CyberAgentさんのインターンに参加しました</title>
+      <link>https://memoran.netlify.app/post/ca_intern/</link>
+      <pubDate>Sat, 21 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://memoran.netlify.app/post/ca_intern/</guid>
+      <description>
+        
+          
+            CyberAgentのゲームエンジニア向けインターン「プロトスプリントリーグ」に参加した体験記です。
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>工事中です</title>
-      <link>http://localhost:1313/post/kari/</link>
+      <link>https://memoran.netlify.app/post/kari/</link>
       <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/kari/</guid>
+      <guid>https://memoran.netlify.app/post/kari/</guid>
       <description>
         
           
