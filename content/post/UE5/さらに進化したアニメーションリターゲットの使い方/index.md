@@ -20,7 +20,7 @@ tags:  [
     "UE5"
 ]
 
-draft:  true #非表示になる
+draft:  false #非表示になる
 featured:  true #おすすめに表示される
 toc:  true #目次が表示される
 abstract:  "aaaaaaaaaaaaaaaaaaaaaaaaaa"
