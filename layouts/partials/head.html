@@ -1,3 +1,5 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 {{- $params := site.Params }}
 {{- $separator := default "|" $params.titleSeparator }}
 {{- $title := "" }}
@@ -9,12 +11,10 @@
   {{- end }}
 {{- end }}
 <title>{{ with $title }}{{ . }} {{ $separator }} {{ end }}{{ .Site.Title }}</title>
-<meta charset="utf-8">
 {{- with $params.ga_verify }}
   <meta name="google-site-verification" content="{{ . }}">
 {{- end }}
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
 {{- if (ne hugo.Environment "development") }}
   {{- partialCached "analytics" . }}
 {{- end }}
