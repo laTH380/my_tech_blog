@@ -1,5 +1,5 @@
 +++
-title = "Profiel"
+title = "Profile"
 description = "プロフィール兼ポートフォリオ"
 date = "2024-05-19"
 author = "laTH380"
