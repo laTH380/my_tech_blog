@@ -20,7 +20,7 @@
         {{- if $showAuthorPhoto }}
           <div class="author_header">
             <img src="{{ absURL $author.photo }}" alt="{{ $author.name }} photo">
-            <div class="vertical_center_box"><a href="/profiel"><h2>{{  $author.name }}</h2></a></div>
+            <div class="vertical_center_box"><a href="/profile"><h2>{{  $author.name }}</h2></a></div>
           </div>
         {{- else }}
           <div class="vertical_center_box"><h2>{{  if $fullAuthor }}{{ $author.name }}{{ else }}{{ $author }}{{ end }}</h2></div>
