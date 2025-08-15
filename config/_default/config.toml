@@ -4,11 +4,13 @@ baseurl = "https://memoran.netlify.app/"  # Include trailing slash
 title = "めもらん"  # Edit directly from config/_default/languages.toml # alternatively, uncomment this and remove `title` entry from the aforemention file.
 copyright = "© 2024, laTH380, Generated with Hugo and hugo-clarity"
 # canonifyurls = true
-paginate = 10
 theme = "hugo-clarity"
-disqusShortname = "aaaa"
 
 DefaultContentLanguage = "ja"
+
+[services]
+[services.disqus]
+shortname = "aaaa"
 # [languages]
 # config/_default/languages.toml
 

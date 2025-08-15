@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on めもらん</title>
-    <link>https://memoran.netlify.app/tags/hugo/</link>
+    <link>http://localhost:1313/tags/hugo/</link>
     <description>Recent content in Hugo on めもらん</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>© 2024, laTH380, Generated with Hugo and hugo-clarity</copyright>
-    <lastBuildDate>Thu, 26 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://memoran.netlify.app/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo製自作ブログとZennに同時投稿できるツールを作った話</title>
-      <link>https://memoran.netlify.app/post/hugo_zenn_post_tool/</link>
+      <link>http://localhost:1313/post/9y2coknhlo/</link>
       <pubDate>Thu, 26 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://memoran.netlify.app/post/hugo_zenn_post_tool/</guid>
+      <guid>http://localhost:1313/post/9y2coknhlo/</guid>
       <description>
         
           

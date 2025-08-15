@@ -2,7 +2,7 @@
 title:  'UE5で3DCGアニメを作る！　#1「コントロールリグの使い方」'
 description:  'UE5.4を用いてアニメ動画を制作した体験の備忘録です。'
 summary:  'UE5.4を用いてアニメ動画を制作した体験の備忘録です。'
-date:  '2024-9-10'
+date:  '2024-09-10'
 aliases:  ["hugo-page-bundles"]
 author:  'laTH380'
 usePageBundles:  true

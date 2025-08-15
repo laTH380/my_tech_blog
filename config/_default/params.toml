@@ -1,6 +1,10 @@
 # 全体の設定をするファイル
 # ここのファイルで設定するとオーバーライドされる
 
+# Pagination settings
+[pagination]
+pagerSize = 10
+
 # enable search
 enableSearch = true
 
