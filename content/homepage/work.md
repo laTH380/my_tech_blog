@@ -1,7 +1,9 @@
 ---
-title: 'We Help Business Grow'
-button: 'Our Work'
-weight: 1
+title: '作ったもの'
+button: '制作物を見る'
+weight: 2
 ---
 
-Lorem ipsum dolor sit amet, et essent mediocritatem quo, choro volumus oporteat an mei. Numquam dolores mel eu, mea docendi omittantur et, mea ea duis erat. Elit melius cu ius. Per ex novum tantas putant, ei his nullam aliquam apeirian. Aeterno quaestio constituto sea an, no eum intellegat assueverit.
+ゲーム制作からウェブアプリ開発、研究まで幅広い分野で創作活動を行っています。
+
+Unity・Unreal Engineを使ったゲーム開発、BlenderでのCG制作、Pythonツール開発など、アイデアを形にすることが好きです。

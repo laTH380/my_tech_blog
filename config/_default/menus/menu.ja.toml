@@ -4,9 +4,14 @@
   weight = -110
 
 [[main]]
- name = "Profiel"
- url = "profiel/"
+ name = "Profile"
+ url = "profile/"
  weight = -107
+
+[[main]]
+ name = "Works"
+ url = "works/"
+ weight = -106
 
 [[main]]
   name = "About"

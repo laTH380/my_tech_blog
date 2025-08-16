@@ -8,4 +8,4 @@ thumbnail: 'https://images.unsplash.com/photo-1447069387593-a5de0862481e?ixlib=r
 draft: true
 ---
 <!-- マップショートコード -->
-{{<openstreetmap mapName="demo-map_1" scale="14" coordX="-37.7989" coordY="145.0003">}}
+<!-- {{<openstreetmap mapName="demo-map_1" scale="14" coordX="-37.7989" coordY="145.0003">}} -->

@@ -1,5 +1,5 @@
 {{- $params := site.Params }}
-{{- if $params.enableSearch }}
+{{- if or $params.enableSearch true }}
   {{- $fusePath := "js/fuse.js" }}
   {{- $fuse := resources.Get $fusePath | resources.ExecuteAsTemplate $fusePath . }}
 

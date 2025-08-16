@@ -1,6 +1,12 @@
 <div class="post_comments">
-  {{ if .Site.DisqusShortname }}
-    {{ template "_internal/disqus.html" . }}
+  {{ if hugo.IsServer }}
+    {{ if site.Config.Services.Disqus.Shortname }}
+      {{ template "_internal/disqus.html" . }}
+    {{ end }}
+  {{ else }}
+    {{ if site.Config.Services.Disqus.Shortname }}
+      {{ template "_internal/disqus.html" . }}
+    {{ end }}
   {{ end }}
   {{ if .Site.Params.utterances }}
     {{ template "partials/utterances.html" . }}

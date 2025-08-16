@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Series on めもらん</title>
-    <link>https://memoran.netlify.app/series/</link>
+    <link>http://localhost:1313/series/</link>
     <description>Recent content in Series on めもらん</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <copyright>© 2024, laTH380, Generated with Hugo and hugo-clarity</copyright><atom:link href="https://memoran.netlify.app/series/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2024, laTH380, Generated with Hugo and hugo-clarity</copyright><atom:link href="http://localhost:1313/series/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
