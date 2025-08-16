@@ -1,12 +1,11 @@
 +++
 title = "作ったもの"
 description = "制作物のまとめページ"
-date = "2025-08-16"
+date = "2025-08-15"
 author = "laTH380"
-menu = { main = { identifier = "works", name = "制作物", weight = 20 } }
 +++
 
-### ゲーム
+## ゲーム
 - 「自分より弱い魚を食べて成長してくやつ」
     - 概要: Unityを用いた2D/3D混合の成長ゲーム
     - 技術: Unity
@@ -25,7 +24,7 @@ menu = { main = { identifier = "works", name = "制作物", weight = 20 } }
     - 概要: オープンワールド探索ゲーム（プロジェクトリーダー兼主要開発担当）
     - 技術: Unreal Engine、blender
 
-### ツール・アドオン
+## ツール・アドオン
 
 - blenderアドオン「psd to plane」
     - 概要: PSDを正しく透過してインポートするアドオン
@@ -37,7 +36,7 @@ menu = { main = { identifier = "works", name = "制作物", weight = 20 } }
     - 技術: blender、Python
     - リンク: https://github.com/laTH380/psd_to_plane
 
-### ウェブアプリ / サイト
+## ウェブアプリ / サイト
 
 - Nitmic ホームページ
     - 概要: 新サイトのレイアウト・デザインを担当

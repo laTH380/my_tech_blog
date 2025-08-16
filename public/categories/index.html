@@ -64,7 +64,8 @@
   >
 
 <header class="nav_header" >
-  <nav class="nav"><a href='http://localhost:1313/' class="nav_brand nav_item" title="めもらん">めもらん
+  <nav class="nav"><a href='http://localhost:1313/' class="nav_brand nav_item" title="めもらん">
+  <img src="http://localhost:1313/logos/logo.png" class="logo" alt="めもらん">
   <div class="nav_close">
     <div><svg class="icon">
   <title>open-menu</title>
@@ -91,7 +92,10 @@
     <a href="http://localhost:1313/about/" class="nav_item" title="About">About </a>
   </div>
   <div class="nav_parent">
-    <a href="http://localhost:1313/profiel/" class="nav_item" title="Profiel">Profiel </a>
+    <a href="http://localhost:1313/profile/" class="nav_item" title="Profile">Profile </a>
+  </div>
+  <div class="nav_parent">
+    <a href="http://localhost:1313/works/" class="nav_item" title="Works">Works </a>
   </div>
       
       
@@ -246,9 +250,32 @@
   </div>
 <aside class="sidebar">
   <section class="sidebar_inner">
+    <br>
     
-    
+  <div class="search">
+    <input type="search" class="search_field form_field" placeholder="ブログを検索..." id="find" autocomplete="off" data-scope='categories'>
+    <label for="find" class="search_label">
+      <span>🔍</span>
+    </label>
+    <div class="search_results results"></div>
+  </div>
 
+    
+    
+      <div class="sidebar_author_sec">
+          <div class="author_header">
+            <img src="http://localhost:1313/images/author_icon.png" alt="laTH380 photo">
+            <div class="vertical_center_box"><a href="/profile"><h2>laTH380</h2></a></div>
+          </div>
+        <div class="author_bio">
+            <p>エンジニアを目指す人</p>
+        </div>
+        <div class="links">
+          <a href="https://twitter.com/laTH380"><img src="/images/twitter.svg" alt="twitter(新X)" class="link-image"></a>
+          <a href="https://github.com/laTH380"><img src="/images/github-icon.svg" alt="github" class="link-image"></a>
+          <a href="https://zenn.dev/lath380"><img src="/images/Zenn_logo-only.svg" alt="Zenn" class="link-image"></a>
+        </div>
+      </div>
 
     <div class = "osusume">
       
@@ -279,13 +306,9 @@
         <li>
           <a href="http://localhost:1313/post/gmmib4ynap/okp9ndxspd/" class="nav-link" title="UE5.4のアニメーションに関するアセット情報まとめ">UE5.4のアニメーションに関するアセット情報まとめ</a>
         </li>
-        <li>
-          <a href="http://localhost:1313/post/kari/" class="nav-link" title="工事中です">工事中です</a>
-        </li>
       </ul>
-    </div>
-    <div class="categori">
-      <h2 class="mt-4 taxonomy" id="categories-section">カテゴリ</h2>
+      <div class="categori">
+        <h2 class="mt-4 taxonomy" id="categories-section">カテゴリ</h2>
       <nav class="tags_nav">
         <a href='http://localhost:1313/categories/tech/' class="post_tag button button_translucent" title="tech">
           TECH
@@ -299,9 +322,9 @@
         
         
       </nav>
-    </div>
-    <div class="categori">
-      <h2 class="mt-4 taxonomy" id="tags-section">タグ</h2>
+      </div>
+      <div class="categori">
+        <h2 class="mt-4 taxonomy" id="tags-section">タグ</h2>
       <nav class="tags_nav">
         <a href='http://localhost:1313/tags/ue5/' class="post_tag button button_translucent" title="ue5">
           UE5
@@ -328,11 +351,6 @@
           <span class="button_tally">1</span>
         </a>
         
-        <a href='http://localhost:1313/tags/%E3%81%9D%E3%81%AE%E4%BB%96/' class="post_tag button button_translucent" title="その他">
-          その他
-          <span class="button_tally">1</span>
-        </a>
-        
         <a href='http://localhost:1313/tags/%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%B3/' class="post_tag button button_translucent" title="インターン">
           インターン
           <span class="button_tally">1</span>
@@ -340,6 +358,7 @@
         
         
       </nav>
+      </div>
   </section>
 </aside>
 
@@ -438,5 +457,8 @@
 </footer>
 
 <script type="text/javascript" src="http://localhost:1313/ja/js/bundle.c0c4fefaa8c6881c15d9ece253069f8bc7963e8bf93ccb8a2c7d16db9019bcbeb4c018304b3c0be440751bac8ff5118887591140328ea426214d1da3d99fbcc6.js" integrity="sha512-wMT&#43;&#43;qjGiBwV2eziUwafi8eWPov5PMuKLH0W25AZvL60wBgwSzwL5EB1G6yP9RGIh1kRQDKOpCYhTR2j2Z&#43;8xg==" crossorigin="anonymous"></script>
+
+  <script src="http://localhost:1313/js/search.min.4c2b0421d128bbd7c43fc7d662fb5dfd8e439c60ee92c900a26d72d9c3271d2256f5bac9f6f919cddfd55101e9272898716cbb3381b4360bf43a66a5f7664f54.js"></script>
+
   </body>
 </html>
