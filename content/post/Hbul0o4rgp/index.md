@@ -1,24 +1,27 @@
-+++
-author = "laTH380"
-title = "家に帰ったらワイヤレスデバッグでスマホの情報を持ってきてくれるホームサーバーを作ろうとして諦めた話"
-date = "2026-05-10"
-description = "Androidのワイヤレスデバッグを使って、帰宅したらスマホの情報を自動でホームサーバーに集める仕組みを作ろうとして諦めた記録"
-summary = "Androidのワイヤレスデバッグを使って、帰宅したらスマホの情報を自動でホームサーバーに集める仕組みを作ろうとして諦めた記録"
-featured = true
-tags = [
-    "Android",
-    "ADB",
-    "ホームサーバー",
-    "ワイヤレスデバッグ"
-]
-categories = [
+---
+author:  'laTH380'
+title:  '家に帰ったらワイヤレスデバッグでスマホの情報を持ってきてくれるホームサーバーを作ろうとして諦めた話'
+date:  '2026-05-09'
+description:  'Androidのワイヤレスデバッグを使って、帰宅したらスマホの情報を自動でホームサーバーに集める仕組みを作ろうとして諦めた記録'
+summary:  'Androidのワイヤレスデバッグを使って、帰宅したらスマホの情報を自動でホームサーバーに集める仕組みを作ろうとして諦めた記録'
+aliases:  ["android-wireless-debug-home-server"]
+usePageBundles:  true
+
+featureImage:  ''
+thumbnail:  ''
+
+categories:  [
     "開発環境"
 ]
-# series = ["Themes Guide"]
-aliases = ["android-wireless-debug-home-server"]
-# thumbnail = "images/building.png"
-draft = true
-+++
+tags:  [
+    "Android","ADB","ホームサーバー","ワイヤレスデバッグ"
+]
+
+draft:  false
+featured:  true
+toc:  true
+comments:  false
+---
 
 家に帰ったらスマホが自宅のWi-Fiにつながって、ホームサーバーがそれを検知し、ADBのワイヤレスデバッグ経由でスマホの情報をいい感じに吸い上げてくれる。
 

@@ -47,6 +47,11 @@ hugo
 uv run python content-raw/generate_output.py
 ```
 
+### 記事front matterのルール
+- 記事のfront matterは `---` で囲むYAML形式で書く
+- `+++` で囲むTOML形式は使わない
+- Zenn投稿用の変換ツールが `---` 形式を前提にしているため、既存記事と同じ形式に揃える
+
 ### 利点
 - SEO用にURLをランダム化できる
 - 記事の管理は人間が読みやすい名前で行える
