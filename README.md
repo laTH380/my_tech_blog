@@ -44,7 +44,7 @@ hugo
 ### 使用方法
 ```bash
 # content-rawで記事を編集後、以下を実行
-python content-raw/generate_output.py
+uv run python content-raw/generate_output.py
 ```
 
 ### 利点
